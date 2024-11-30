@@ -65,7 +65,7 @@ const Navbar = () => {
               <Link href="#contact">Contact</Link>
             </li>
             <li className="pl-6 pr-6 flex text-center items-center justify-center bg-blue-800 h-10">
-              Login
+              <Link href="/component/login_page/loginPage">Login</Link>
             </li>
           </ul>
         </div>

@@ -8,10 +8,10 @@ export default function AboutSection() {
           <Image src="/photo2.png" alt="Aiso Image" width={600} height={200} />
         </div>
         <div className="w-1/2 p-11">
-          <p className=" text-blue-700 text-5xl">
+          <p className=" text-black text-5xl">
             <b>DIMATA AISO</b>
           </p>
-          <p className=" text-sky-500 text-2xl">
+          <p className=" text-black text-2xl">
             AISO by PT. Dimata Sora Jayate is an online accounting information
             system that facilitates secure and efficient recording, storage, and
             reporting of financial transactions.
