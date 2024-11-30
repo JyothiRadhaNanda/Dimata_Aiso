@@ -3,13 +3,12 @@ import Image from "next/image";
 export default function ContactSection() {
   return (
     <section id="contact" className="p-14 pt-48 pb-32 h-screen px-60">
-      <div className="flex items-center justify-center gap-24 flex-row">
-        <div className="w-1/2 flex flex-col items-center">
-          <div className=" flex">
-            <p className="text-7xl">
+      <div className="flex items-center justify-center gap-24  flex-row">
+        <div className="w-1/2 flex flex-col   ">
+          <div className=" flex ">
+            <p className="text-7xl mb-12">
               <b>Our Location</b>
             </p>
-            <p className="pt-11 pl-4">Address Dimata</p>
           </div>
           <div>
             <iframe
@@ -24,12 +23,19 @@ export default function ContactSection() {
           </div>
         </div>
         <div className="w-1/2 text-center">
+          <p className="text-4xl mb-7 ">
+            <b>Address</b>
+          </p>
           <p className="text-2xl">
             Jl. Danau Tempe No.21A, Sidakarya, Denpasar Selatan, Kota Denpasar,
             Bali 80224
           </p>
-          <p className="text-2xl pt-16">Hours</p>
-          <p className="text-2xl">Monday-Saturday: 08.30AM - 05.30PM</p>
+          <p className="text-4xl pt-16 mb-7">
+            <b>Open From</b>
+          </p>
+          <p className="text-2xl">
+            Monday-Saturday <br /> 08.30AM - 05.30PM
+          </p>
         </div>
       </div>
     </section>

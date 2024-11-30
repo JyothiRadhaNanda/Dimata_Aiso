@@ -6,16 +6,18 @@ export default function SignUpPageSection() {
   return (
     <div className="flex  bg-white ">
       <div className="flex flex-col  w-1/2 min-h-screen p-4 justify-center  text-center px-32">
-        <div className="bg-sky-400 p-10 h-4/5 justify-center flex flex-col rounded-2xl ">
-          <a href="/">
-            <Image
-              src="/delete.svg"
-              alt="Aiso Image"
-              width={30}
-              height={30}
-              className="mb-20"
-            />
-          </a>
+        <div className="bg-sky-400 p-10 h-4/5 justify-center flex flex-col rounded-2xl relative">
+          {/* Icon delete di pojok div biru */}
+          <div className="absolute top-4 left-4">
+            <a href="/">
+              <Image
+                src="/delete.svg"
+                alt="Aiso Image"
+                width={30}
+                height={30}
+              />
+            </a>
+          </div>
           <p className=" text-black text-5xl mb-10 font-bold items-center justify-center ">
             Sign Up
           </p>
@@ -32,7 +34,7 @@ export default function SignUpPageSection() {
               type="text"
               placeholder=""
             ></input>
-            <p className="text-black mt-5 text-start">Your comfirm email</p>
+            <p className="text-black mt-5 text-start">Your confirm email</p>
             <input
               className="rounded bg-white py-3 px-4 w-full mb-4"
               type="text"
