@@ -22,23 +22,23 @@ export default function SignUpPageSection() {
             Sign Up
           </p>
           <div className="flex flex-col mb-10">
-            <p className="text-black text-start">Name</p>
+            <p className="text-black text-start">Email</p>
             <input
-              className="rounded bg-white text-white py-3 px-4 w-full mb-4"
+              className="rounded bg-white text-black py-3 px-4 w-full mb-4"
               type="email"
-              placeholder=""
+              placeholder="yourname@gmail.com"
             ></input>
-            <p className="text-black mt-5 text-start">Your email</p>
+            <p className="text-black mt-5 text-start">Passsword</p>
             <input
-              className="rounded bg-white py-3 px-4 w-full mb-4"
-              type="text"
-              placeholder=""
+              className="rounded bg-white py-3 text-black px-4 w-full mb-4"
+              type="password"
+              placeholder="Masukkan kata sandi"
             ></input>
-            <p className="text-black mt-5 text-start">Your confirm email</p>
+            <p className="text-black mt-5 text-start">Comfirm Password</p>
             <input
-              className="rounded bg-white py-3 px-4 w-full mb-4"
-              type="text"
-              placeholder=""
+              className="rounded bg-white text-black py-3 px-4 w-full mb-4"
+              type="password"
+              placeholder="Masukkan kata sandi"
             ></input>
           </div>
           <div className="mb-10">

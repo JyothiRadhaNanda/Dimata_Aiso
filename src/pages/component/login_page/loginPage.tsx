@@ -23,17 +23,17 @@ export default function loginPageSection() {
             Login
           </p>
           <div className="flex flex-col mb-10">
-            <p className="text-black text-start">Name</p>
+            <p className="text-black text-start">Email</p>
             <input
               className="rounded bg-white text-black py-3 px-4 w-full mb-4"
               type="email"
-              placeholder=""
+              placeholder="yourname@gmail.com"
             ></input>
-            <p className="text-black mt-5 text-start">Your email</p>
+            <p className="text-black mt-5 text-start">Password</p>
             <input
               className="rounded bg-white text-black py-3 px-4 w-full mb-4"
-              type="text"
-              placeholder=""
+              type="password"
+              placeholder="Masukkan kata sandi"
             ></input>
           </div>
           <div className="mb-10">
