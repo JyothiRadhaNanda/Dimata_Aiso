@@ -1,4 +1,3 @@
-import localFont from "next/font/local";
 import Navbar from "./component/navbar";
 import HomeSection from "./component/home/home";
 import AboutSection from "./component/about/about";
