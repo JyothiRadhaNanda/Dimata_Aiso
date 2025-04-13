@@ -4,7 +4,7 @@ export default function HomeSection() {
   return (
     <section
       id="home"
-      className="px-6 py-20 md:px-14 md:pt-48  md:pb-36 min-h-screen"
+      className="px-6 py-20 md:px-14 md:pt-48 md:red  md:pb-36 min-h-screen"
     >
       <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-24">
         {/* Text Section */}
