@@ -5,7 +5,7 @@ export default function AboutSection() {
     <section id="about" className="p-14 pt-60 pb-64 bg-white">
       <div className="flex items-center justify-center flex-row ">
         <div className="relative items-center justify-center flex w-1/2">
-          <Image src="/photo2.png" alt="Aiso Image" width={600} height={200} />
+          <Image src="/Photo2.png" alt="Aiso Image" width={600} height={200} />
         </div>
         <div className="w-1/2 p-11">
           <p className=" text-black text-5xl">

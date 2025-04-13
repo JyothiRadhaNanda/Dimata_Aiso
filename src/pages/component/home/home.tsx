@@ -29,7 +29,7 @@ export default function HomeSection() {
             {/* Image in front */}
             <div className="relative z-10">
               <Image
-                src="/photo1.png"
+                src="/Photo1.png"
                 alt="Aiso Image"
                 width={400}
                 height={200}
