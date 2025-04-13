@@ -8,7 +8,7 @@ import LoginSection from "./component/login/login";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div>
       <Navbar />
       <HomeSection />
       <AboutSection />
