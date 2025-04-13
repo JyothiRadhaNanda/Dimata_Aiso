@@ -1,24 +1,23 @@
 import Image from "next/image";
-import HomeSection from "../home/home";
-import Navbar from "../navbar";
+import Link from "next/link"; // Import Link from next/link
 
 export default function SignUpPageSection() {
   return (
-    <div className="flex  bg-white ">
-      <div className="flex flex-col  w-1/2 min-h-screen p-4 justify-center  text-center px-32">
+    <div className="flex bg-white ">
+      <div className="flex flex-col w-1/2 min-h-screen p-4 justify-center text-center px-32">
         <div className="bg-sky-400 p-10 h-4/5 justify-center flex flex-col rounded-2xl relative">
           {/* Icon delete di pojok div biru */}
           <div className="absolute top-4 left-4">
-            <a href="/">
+            <Link href="/">
               <Image
                 src="/delete.svg"
                 alt="Aiso Image"
                 width={30}
                 height={30}
               />
-            </a>
+            </Link>
           </div>
-          <p className=" text-black text-5xl mb-10 font-bold items-center justify-center ">
+          <p className="text-black text-5xl mb-10 font-bold items-center justify-center">
             Sign Up
           </p>
           <div className="flex flex-col mb-10">
@@ -28,13 +27,13 @@ export default function SignUpPageSection() {
               type="email"
               placeholder="yourname@gmail.com"
             ></input>
-            <p className="text-black mt-5 text-start">Passsword</p>
+            <p className="text-black mt-5 text-start">Password</p>
             <input
               className="rounded bg-white py-3 text-black px-4 w-full mb-4"
               type="password"
               placeholder="Masukkan kata sandi"
             ></input>
-            <p className="text-black mt-5 text-start">Comfirm Password</p>
+            <p className="text-black mt-5 text-start">Confirm Password</p>
             <input
               className="rounded bg-white text-black py-3 px-4 w-full mb-4"
               type="password"
@@ -45,7 +44,7 @@ export default function SignUpPageSection() {
             <p>
               Already have an account? Log in
               <span className="text-blue-800">
-                <a href="/component/login_page/loginPage"> Here</a>
+                <Link href="/component/login_page/loginPage">Here</Link>
               </span>
             </p>
           </div>

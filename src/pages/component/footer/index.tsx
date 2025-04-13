@@ -2,7 +2,7 @@ const Footer = () => {
   return (
     <footer className="text-center pt-20 bg-white">
       <h1 className="text-4xl font-bold mb-4">
-        "Dynamic Discussions, Visionary Decisions"
+        &quot;Dynamic Discussions, Visionary Decisions&quot;
       </h1>
       <p className="text-lg mb-8">
         Choose a committed team or allow us to craft your vision into reality.

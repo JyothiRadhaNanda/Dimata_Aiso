@@ -13,7 +13,7 @@ export default function HomeSection() {
             Accounting Information System Online
           </p>
           <p className="mt-4 text-base sm:text-lg italic">
-            "Organization Management Made Easier Than Ever"
+            &quot;Organization Management Made Easier Than Ever&quot;
           </p>
           <button className="bg-blue-800 text-white px-5 py-3 rounded-lg mt-6 hover:bg-blue-700 transition w-full sm:w-auto">
             Book Free Consultation

@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 export default function ContactSection() {
   return (
     <section id="contact" className="p-14 pt-48 pb-32 h-screen px-60">

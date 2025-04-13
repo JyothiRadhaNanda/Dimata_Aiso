@@ -1,6 +1,5 @@
 import Image from "next/image";
-import HomeSection from "../home/home";
-import Navbar from "../navbar";
+import Link from "next/link";
 
 export default function loginPageSection() {
   return (
@@ -10,14 +9,14 @@ export default function loginPageSection() {
         <div className="bg-sky-400 p-10 h-4/5 justify-center flex flex-col rounded-2xl relative">
           {/* Icon delete di pojok div biru */}
           <div className="absolute top-4 left-4">
-            <a href="/">
+            <Link href="/">
               <Image
                 src="/delete.svg"
                 alt="Aiso Image"
                 width={30}
                 height={30}
               />
-            </a>
+            </Link>
           </div>
           <p className="text-black text-5xl mb-10 font-bold items-center justify-center">
             Login
@@ -40,7 +39,7 @@ export default function loginPageSection() {
             <p>
               You don’t have account? Sign Up
               <span className="text-blue-800">
-                <a href="/component/signup_page/signup"> Here</a>
+                <Link href="/component/signup_page/signup">Here</Link>
               </span>
             </p>
           </div>
