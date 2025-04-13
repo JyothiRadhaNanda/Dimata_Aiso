@@ -2,31 +2,38 @@ import Image from "next/image";
 
 export default function HomeSection() {
   return (
-    <section id="home" className="p-14 pt-48 pb-36 h-screen">
-      <div className="flex items-center justify-center gap-24 flex-row">
-        <div className="w-1/2">
-          <p className="text-7xl">
-            <b>Accounting Information System Online</b>
+    <section
+      id="home"
+      className="px-6 py-20 md:px-14 md:pt-48 md:pb-36 min-h-screen"
+    >
+      <div className="flex flex-col-reverse md:flex-row items-center justify-center gap-10 md:gap-24">
+        {/* Text Section */}
+        <div className="w-full md:w-1/2 text-center md:text-left">
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-snug">
+            Accounting Information System Online
           </p>
-          <p>
-            <i>"Organization Management Made Easier Than Ever"</i>
+          <p className="mt-4 text-base sm:text-lg italic">
+            "Organization Management Made Easier Than Ever"
           </p>
-          <button className="bg-blue-800 p-3 rounded-lg mt-4 ">
+          <button className="bg-blue-800 text-white px-5 py-3 rounded-lg mt-6 hover:bg-blue-700 transition w-full sm:w-auto">
             Book Free Consultation
           </button>
         </div>
-        <div className="relative flex text-">
-          <div className="relative flex">
-            {/* Div Biru di belakang Gambar */}
-            <div className="bg-blue-800 ml-6  absolute inset-0 z-10"></div>
 
-            {/* Gambar dengan Z-index lebih tinggi */}
-            <div className=" relative bottom-7 right-7 z-20 ">
+        {/* Image Section */}
+        <div className="relative w-full md:w-auto flex justify-center items-center">
+          <div className="relative w-full max-w-xs sm:max-w-sm md:max-w-md">
+            {/* Blue shadow box behind */}
+            <div className="absolute top-4 left-4 w-full h-full bg-blue-800 rounded-xl z-0"></div>
+
+            {/* Image in front */}
+            <div className="relative z-10">
               <Image
                 src="/photo1.png"
                 alt="Aiso Image"
                 width={400}
                 height={200}
+                className="w-full h-auto rounded-xl"
               />
             </div>
           </div>
